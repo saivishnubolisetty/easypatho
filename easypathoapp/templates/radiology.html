@@ -1,0 +1,49 @@
+{% extends "master.html" %}
+
+{% block content %}
+
+<div class="container">
+  <table class="table">
+    <thead class= "thead-dark">
+      <tr>
+          <th></th>
+          <th>RADIOLOGY SERVICES</th>
+          <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success">
+          <td></td>
+        <td> <a href="http://127.0.0.1:8000/dst/"> DUAL SOURCE CT</a></td>
+      <td></td>
+      </tr>
+
+      <tr class="table-danger">
+           <td></td>
+        <td><a href="http://127.0.0.1:8000/osix/"> 16 CHANNEL 1.5T HDx MRI SYSTEM </a> </td>
+          <td></td>
+      </tr>
+      <tr class="table-info">
+          <td></td>
+        <td><a href="http://127.0.0.1:8000/us/">ULTRASOUND SCAN WITH 3-D AND 4-D IMAGING </a> </td>
+          <td></td>
+      </tr>
+      <tr class="table-warning">
+          <td></td>
+        <td><a href="http://127.0.0.1:8000/dxr/"> DIGITAL X-RAY </a>  </td>
+          <td></td>
+      </tr>
+      <tr class="table-active">
+          <td></td>
+        <td> <a href="http://127.0.0.1:8000/dma/"> DIGITAL MAMMOGRAPHY </a></td>
+          <td></td>
+      </tr>
+      <tr class="table-danger">
+          <td></td>
+        <td><a href="http://127.0.0.1:8000/dexa/"> DEXA BONR DENSITOMETRY (BDM)</a> </td>
+          <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{% endblock content %}

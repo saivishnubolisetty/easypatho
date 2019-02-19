@@ -1,0 +1,50 @@
+@media (max-width:480px) {
+	.social-container {padding: 21px 0}
+	.carousel-caption h3 {font-size: 14px;line-height: 15px;padding-bottom:0}
+	.carousel-caption h4 {font-size: 17px;line-height: 22px}
+	.carousel-caption .caption-btn-holder a {font-size: 12px;margin-right: 0;padding: 5px;display: inherit;margin-bottom:5px;text-align:center}
+	.carousel-caption {left: 12%;width: 45%;top:10%}
+	.blue .glyphicon-play-circle {font-size: 15px;padding-left: 4px;top: 3px}
+	.caption-btn-holder {margin-top: 0;width: 70%}
+	.box {/*height: auto;*/ margin-bottom: 5px;padding: 20px 25px}
+	.media-body h4 {font-size: 18px}
+	.appointment h4 {font-size: 18px}
+	.appointment h6 {font-size: 13px;padding-bottom: 10px}
+	.appointment a {font-size: 14px;padding: 5px 20px}
+	.mar-tp-10 {margin-top: 0}
+	.pad-rt-10 {padding-right: 0}
+	.welcome-content {padding: 30px 15px;text-align: center}
+	.time-holder {margin-bottom: 15px}
+	.time {padding: 24px 0}
+	.navbar-nav > li > a {padding: 10px 20px;}
+	}
+	
+@media (max-width:360px){
+	.timing-holder h4{font-size: 25px}
+	.time h5{font-size: 14px}
+	.time h3 {font-size: 18px}
+	.time h3 span{font-size: 12px}
+	.timing-holder a{font-size:12px;padding: 10px 20px}
+	.welcome-content a{padding: 10px 15px}
+	.welcome-content h2{font-size: 30px;padding-bottom: 15px}
+	.caption-btn-holder a{display:none !important}
+	.carousel-caption{left: 15%;top: 25%;width: 45%}
+	.navbar-nav > li > a { padding:8px 20px !important;}
+	.navbar-nav > li > a:hover { padding:8px 20px !important;}
+	}
+
+@media (max-width:640px){
+	.timing-holder h4{font-size: 25px}
+	.time h5{font-size: 14px}
+	.time h3 {font-size: 18px}
+	.time h3 span{font-size: 12px}
+	.timing-holder a{font-size:12px;padding: 10px 20px}
+	.welcome-content a{padding: 10px 15px}
+	.welcome-content h2{font-size: 30px;padding-bottom: 15px}
+	.caption-btn-holder a{display:none !important}
+	.carousel-caption{left: 15%;top: 25%;width: 45%}
+	.navbar-nav > li > a { padding:8px 20px !important;}
+	.navbar-nav > li > a:hover { padding:8px 20px !important;}
+	}
+
+

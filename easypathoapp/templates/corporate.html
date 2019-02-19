@@ -1,0 +1,79 @@
+{% extends "master.html" %}
+{%  load static %}
+{%  block content %}
+
+    <div id="corpup">
+          <img class="img-responsive" src="{% static '10.jpg' %}" alt="" width="1550" height="500">
+
+    </div>
+
+<div class="jumbotron" >
+
+<div class="corp">
+    <h3 align="center">Contact us to learn more !</h3>
+    <h4 align="center">Fill out the form below and our team will <br>
+        get to touch with you. </h4>
+    <h4 align="center">We look forwarding to serving you.</h4>
+
+
+<form method="post">
+ {% csrf_token %}
+
+  <div class="form-group">
+       <div class="col-8">
+    <label for="name">NAME*:</label>
+    <input type="text" class="form-control" id="name" name="namecorp">
+    </div>
+  </div>
+
+<div class="form-group">
+       <div class="col-8">
+    <label for="cn">COMPANY NAME*:</label>
+    <input type="text" class="form-control" id="cn" name="cncorp">
+    </div>
+  </div>
+
+    <div class="form-group">
+       <div class="col-8">
+    <label for="es">EMPLOYEE STRENGTH:</label>
+    <input type="number" class="form-control" id="es" name="escorp">
+    </div>
+  </div>
+
+    <div class="form-group">
+       <div class="col-8">
+    <label for="phone">PHONE*:</label>
+    <input type="number" class="form-control" id="phone" name="phonecorp">
+    </div>
+  </div>
+
+    <div class="form-group">
+       <div class="col-8">
+    <label for="email">EMAIL*:</label>
+    <input type="email" class="form-control" id="email" name="emailcorp">
+    </div>
+  </div>
+
+    <div class="form-group">
+       <div class="col-8">
+    <label for="city">CITY*:</label>
+    <input type="text" class="form-control" id="city" name="citycorp">
+    </div>
+  </div>
+
+  <div class="form-group">
+      <div class="col-8">
+  <label for="comment">Message:</label>
+  <textarea type="text" class="form-control" rows="5" id="comment" name="messagecorp"></textarea>
+</div>
+      </div>
+
+  <button type="submit" class="btn btn-danger" name="submit" id="submit">Submit</button>
+
+
+</form>
+</div>
+
+</div>
+
+{% endblock content %}

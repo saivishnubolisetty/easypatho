@@ -1,0 +1,27 @@
+*
+{
+	
+	margin:0;
+	padding:0;
+}
+
+.container-fluid{
+	
+	background-color:#AAA;
+	width:1000px;
+	height:20%;
+	margin:5px;
+	
+}
+
+.container1-fluid h4{
+	
+	background-color:#EEE;
+	width:1000px;
+	height:70%;
+	margin:5px;
+	font-weight:normal;
+	text-align:justify;
+	text-justify:auto;
+
+}

@@ -1,0 +1,13 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+
+@font-face {
+    font-family: 'Kozuka Gothic Pro';
+    src: url("../font/Kozuka Gothic Pro.otf") format('truetype');
+    src: local("☺"),
+    url("../font/KozGoPro-Bold.otf"),
+    url("../font/KozGoPro-ExtraLight.otf") format('truetype'), 
+    url("../font/KozGoPro-Heavy.otf") format('truetype'), 
+    url("../font/KozGoPro-Light.otf") format('truetype');
+    url("../font/KozGoPro-Medium.otf") format('truetype')
+    url("../font/KozGoPro-Regular.otf") format('truetype');
+}

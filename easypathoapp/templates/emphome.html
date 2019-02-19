@@ -1,0 +1,10 @@
+{% extends "master.html" %}
+{% load static %}
+{% block content %}
+    <br>
+    <ul>
+   {% for item in plist %}
+       <li><h1>{{ item.name}} | {{ item.time}} | {{ item.date}} </h1></li>
+    {% endfor %}
+    </ul>
+{%  endblock content %}

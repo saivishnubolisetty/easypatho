@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<link href="mypro.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-fluid"  >
+<div class="row">
+<div class="col-md-6">
+<img src="1.jpg" height="122px" width="300px" align="right" >
+</div>
+</div>
+<p>
+<h2 style="padding-top:20px; padding-left:2px;font-family:Lucida Handwriting; color:white">
+DUAL SOURCE CT</h2>
+</p><br/>
+<h4 style="padding:10px; color:white">Home | AboutUs  |  Overview</h4>
+</div>
+<div class="container1-fluid" >
+<div class="row">
+<div class="col-md-6">
+<img src="haematology.jpg" height="300px" width="400px" align="left" style="padding-right:5px; padding-top:2px">
+</div>
+</div>
+<p>
+<h4>
+Elbit is established as a seamless service provider link between doctors, hospitals, in-house 
+consultants and visiting patients, attending to all their medical diagnostic needs.
+Elbit presently enjoys a noticeable existence in the healthcare industry. We offer 
+a winning combination of contemporary equipment, international technology and 
+effective personal care. We provide patients and their families with high-standard
+medical care and, the most qualitative and quantitative data regarding the etiology 
+and pathogenesis of a disease.
+
+This valuable data assists clinicians with faster diagnosis, patient stratification,
+drug prescription, and prognosis. Elbit Medical Diagnostics Ltd. is committed to "continually
+raise the standards of excellence in medical diagnostics, by using the latest technology,
+through trained and qualified professionals to achieve and maintain the highest level of
+patient care based on proven scientific principles, administered with empathy and insight".
+Elbit is developed as a repository tool to bring health to the forefront. Elbit has set-up
+sprawling, centrally air conditioned centres at Hyderabad and Bangalore to bring about a
+revolution in this field. We aim at developing centres across India to help humankind with 
+modern medical diagnostics facilities.
+</h4>
+</p>
+</div>
+</body>
+</html>
